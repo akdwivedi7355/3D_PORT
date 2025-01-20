@@ -1,111 +1,99 @@
 export const portfolioData = {
   personal: {
-    name: "Aditya Kumar Dwivedi",
-    phone: "7355923271",
-    email: "akdwivedi7355@gmail.com",
+    name: "Rohit Kumar",
+    phone: "+91-8948720228",
+    email: "rohit.cse016@gmail.com",
     links: {
-      linkedin: "linkedin.com/in/akdwivedi7355",
-      github: "github.com/akdwivedi7355",
-      portfolio: "akdwivedi7355.github.io/port/index.html"
+      linkedin: "linkedin.com/in/rohit-kumar-310238193",
+      github: "github.com/rohitcse016",
+      portfolio: "rohitcse016.github.io/portfolio" // Replace with actual portfolio link if available
     },
-    summary: "Results-oriented software developer specializing in the design and deployment of face recognition and biometric systems with expertise in  React.js ,express.js , server.io,  python , MySQL and MSSQL. Skilled in integrating real-time data processing, enhancing multi-user detection accuracy, and securing data storage solutions."
+    summary: "Aspiring software developer with a focus on mobile app development and backend solutions. Proficient in Java, React.js, React Native, Node.js, and database management. Passionate about creating user-centric applications and continuously enhancing technical skills through hands-on projects and problem-solving."
   },
   experience: [
     {
-      company: "MULTIFACET SOFTWARE SYSTEMS PRIVATE LIMITED",
-      role: "Software Developer",
+      company: "Multifacet Software Systems Pvt. Ltd.",
+      role: "React Native/React.js Developer",
       location: "Kanpur, Uttar Pradesh, India",
-      duration: "Jul 2024 – Present",
+      duration: "Oct 2022 – Present",
       responsibilities: [
-        "Face Recognition System Development using OpenCV and Java",
-        "Cross-Platform Integration with React.js",
-        "Database Management with MSSQL",
-        "Technical Documentation and Training",
+        "Developed and maintained mobile applications using React Native, including Attendance and Smart City Kanpur apps.",
+        "Integrated APIs and implemented RFID-based solutions in Android Studio.",
+        "Contributed to web development using React.js for College Study Center and Hospital Management System.",
+        "Applied face recognition technology in mobile applications to enhance functionality."
       ],
     },
     {
-      company: "Lemin Technology",
-      role: "Tech Support Engineer",
-      location: "Noida, Uttar Pradesh, India",
+      company: "Aakarshan Pvt. Ltd.",
+      role: "Android Core, Java, and Native Developer Intern",
+      location: "Lucknow, Uttar Pradesh, India",
       duration: "Feb 2024 – May 2024",
       responsibilities: [
-        "Technical Troubleshooting in Python-based systems",
-        "Backend Development with Flask and Django",
-        "Process Documentation",
+        "Developed native Android applications focusing on core functionality and user experience.",
+        "Worked with Java and Android SDK to optimize app performance.",
+        "Debugged and tested Android applications to improve user satisfaction."
       ],
     },
   ],
   education: [
     {
-      institution: "Pranveer Singh Institute of Technology, Kanpur",
-      degree: "Master of Computer Application",
-      duration: "june 2024",
-      location: "Kanpur, Uttar Pradesh",
-      coursework: ["Advanced Data Structures", "Machine Learning", "Artificial Intelligence", "Web Technologies"]
-    },
-    {
-      institution: "Dayanand Anglo Vaidik (D.A.V.) College",
-      degree: "Bachelor of Science",
-      duration: "june 2022",
-      location: "Kanpur, Uttar Pradesh",
-      coursework: ["Mathematical Physics", "Digital Systems and Applications", "Quantum Mechanics", "Statistical Physics"]
+      institution: "Dr. A.P.J. Abdul Kalam University, Lucknow",
+      degree: "B.Tech in Computer Science & Engineering",
+      duration: "2020",
+      location: "Lucknow, Uttar Pradesh",
+      coursework: ["Data Structures", "Algorithms", "Web Development", "Database Management", "Operating Systems"]
     }
   ],
   projects: [
     {
-      title: "Industrial Face Recognition Attendance System",
-      technologies: ["Java", "RFID SDK", "OpenCV", "Android"],
-      description: "Developed a face recognition-based attendance system for industrial environments using Java and OpenCV, ensuring real-time detection of multiple faces for accurate attendance tracking.",
+      title: "Vehicle Workshop Management System",
+      technologies: ["Java", "Android", "Firebase", "SQLite"],
+      description: "Developed an Android application to manage vehicle service workflows, including service requests, inventory management, and billing.",
       highlights: [
-        "Integrated RFID SDK for hybrid attendance functionality",
-        "Designed core Android application",
-        "Optimized performance for high-resolution video feeds"
+        "Integrated Firebase for real-time updates and secure data synchronization.",
+        "Used SQLite for offline data storage, ensuring reliability even without network connectivity."
       ]
     },
     {
-      title: "Biometric Security System for Manufacturing Facilities",
-      technologies: ["Java", "RFID SDK", "Android", "MSSQL"],
-      description: "Engineered a biometric security system utilizing Java for backend logic and RFID SDK for secure access control and monitoring at factory entry points.",
+      title: "Smart City Application",
+      technologies: ["React Native", "Firebase", "REST APIs"],
+      description: "Built a mobile app to offer smart city solutions like public transport tracking, utility bill payments, and real-time waste management updates.",
       highlights: [
-        "Developed native Android application",
-        "Implemented MSSQL for continuous data recording",
-        "Conducted thorough system testing"
+        "Implemented Firebase for user authentication and real-time data processing.",
+        "Focused on cross-platform functionality for better user experience."
       ]
     },
     {
-      title: "Core Android Video Streaming Application",
-      technologies: ["Java", "Firebase", "REST APIs"],
-      description: "Built a video streaming application for Android using Java, integrating Firebase Authentication for secure user management.",
+      title: "Attendance Face Recognition System",
+      technologies: ["Java", "Android", "OpenCV", "Firebase"],
+      description: "Created an Android-based attendance system integrating OpenCV for face recognition to automate attendance accuracy.",
       highlights: [
-        "Utilized REST APIs for real-time video streaming",
-        "Designed responsive UI/UX",
-        "Focused on modular architecture"
+        "Optimized the system for multi-user detection in real-time scenarios.",
+        "Utilized Firebase for cloud-based data storage and real-time access."
       ]
     }
   ],
   skills: {
-    languages: ["Java", "Python", "JavaScript"],
-    mobileDev: ["Android Application Development (Native Java)"],
-    sdksAndApis: ["RFID Reader SDK", "OpenCV", "Firebase", "RESTful APIs"],
+    languages: ["Java", "TypeScript", "JavaScript"],
+    mobileDev: ["React Native", "Android Application Development (Native Java)"],
+    sdksAndApis: ["OpenCV", "Firebase", "RESTful APIs", "RFID SDK"],
     frontend: ["React.js", "HTML5", "CSS3"],
-    backend: ["Flask", "Django", "Node.js"],
-    databases: ["MSSQL", "MySQL", "MongoDB"],
-    tools: ["Git", "Docker", "Jenkins", "IntelliJ IDEA", "Android Studio"],
+    backend: ["Node.js", "Express.js"],
+    databases: ["MSSQL", "MySQL"],
+    tools: ["Git", "Docker", "Android Studio"],
     cloud: ["AWS", "Azure"],
-    concepts: ["OOP", "Face Recognition", "RFID Integration", "MVC Architecture", "CI/CD", "Agile"]
+    concepts: ["OOP", "Microservices", "REST APIs", "Agile Development"]
   },
   certifications: [
-    "Data Structures, Coursera (University of California San Diego)",
-    "SQL for Data Science, Coursera (University of California Davis)",
-    "Programming Fundamentals, Coursera (Duke University)",
+    "Spoken Tutorial: Java and Python",
+    "HackerRank: Java, Python, SQL",
+    "SoloLearn: Java, Python, JavaScript",
     "Google Analytics, Google Analytics Academy"
   ],
   achievements: [
-    "Qualified TCS NQT with a score of 73.38",
-    "4-star rating in Java and 5-star rating in C++ on HackerRank",
-    "Solved over 500 problems on competitive programming platforms",
-    "Top 10 rank in PSIT Hackthon Coding Challenge 2023",
-    "Final Year Project Award for blockchain-based voting system",
-    "Led community tech workshop teaching web development"
+    "Successfully implemented the Smart City Application for Kanpur Nagar Nigam.",
+    "Deployed the Smart Trolley System at CSJM University to improve campus logistics.",
+    "Developed and deployed the Vehicle Workshop Management System for large-scale workshops.",
+    "Contributed to high-impact projects integrating cutting-edge technology with user-centric design."
   ]
 };
