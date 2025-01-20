@@ -1,6 +1,6 @@
 export const portfolioData = {
   personal: {
-    name: "Rohit Kumar",
+    name: "Aditya Kumar Dwivedi",
     phone: "7355923271",
     email: "akdwivedi7355@gmail.com",
     links: {
